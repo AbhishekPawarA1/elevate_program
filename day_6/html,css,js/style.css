@@ -1,0 +1,54 @@
+#nav {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid rgb(79, 85, 79);
+            padding: 5px;
+            background-color: rgb(250, 247, 247);
+        }
+        button {
+            cursor: pointer;
+        }
+        #inner-side-div {
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            
+
+        }
+        #inner-side-div > div {
+            border: 1px solid black;
+        }
+        #components-div {
+            padding: 5px;
+            gap: 5px;
+             width: 30%;
+        }
+        #components-div > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            border: 1px solid black;
+           
+        }
+        #root {
+            background-color: rgb(238, 255, 250);
+            border: 1px solid black;
+            width: 70%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+        #fun-input {
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        #dust-div {
+            display: flex;
+            justify-content: space-between;
+        }
