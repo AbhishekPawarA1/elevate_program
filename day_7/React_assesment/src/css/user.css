@@ -1,0 +1,51 @@
+.child {
+    border: 1px solid rgb(23, 13, 13);
+
+}
+.child:hover{
+    border: 1px solid black;
+}
+li {
+    text-decoration: none;
+    list-style:square; 
+    font-size: 25px;
+    background-color: white;
+}
+.parent {
+    border: 1px solid black;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(213, 213, 213);
+}
+.input-div {
+    margin-bottom: 25px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 15px;
+}
+input{
+    padding: 15px;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-size: larger;
+    
+}
+button {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: larger;
+
+}
+button:hover{
+    border: 1px solid blue;
+    cursor: pointer;
+    color: black;
+    background-color: green;
+
+}
